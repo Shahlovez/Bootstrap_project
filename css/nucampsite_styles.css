@@ -1,0 +1,69 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+.site-footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 10px;
+    background-image: linear-gradient(to right, #4ba8e6, #7582ce, #834d8a);
+    color: white;
+}
+
+
+.about{
+    margin-top: 1em; 
+}
+
+a, a:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+
+.navbar-brand{
+    font-weight: 900;
+    text-transform:uppercase;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    padding: 0.5em;
+}
+.navbar-brand img{
+    height: 50px; 
+}
+
+.nav-link {
+    font-weight: bold;
+    color: purple; 
+}
+.cards{
+    margin-top: 20px;
+    padding:50px;
+
+}
+.card{
+    border: 2px solid rebeccapurple;
+    box-shadow: 6px 5px 5px rgb(65, 134, 225);
+}
+.accordion .card{
+    max-width: 650px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    border: none;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+  }
+  
