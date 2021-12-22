@@ -5,14 +5,13 @@
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Shahlo Ovezniyazova",
   "license": "ISC",
-  "devDependencies": {
-    "lite-server": "^2.6.1"
-  },
+  "devDependencies": {},
   "dependencies": {
     "bootstrap": "^4.5.2",
     "bootstrap-social": "^5.1.1",
